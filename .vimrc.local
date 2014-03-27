@@ -1,3 +1,6 @@
-let mapleader = ","
 au FocusGained * call getchar(0)
 nnoremap <leader><space> :noh<cr>
+map <C-L> <C-W>l
+map <C-h> <C-W>h
+map <C-K> <C-W>k
+map <C-J> <C-W>j
